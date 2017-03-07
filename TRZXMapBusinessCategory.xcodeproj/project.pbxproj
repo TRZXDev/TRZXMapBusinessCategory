@@ -1,0 +1,411 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13D65B2009D2C2EDCB147820 /* libPods-TRZXMapBusinessCategory.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E42FE15E994D7FACF8BC1BB /* libPods-TRZXMapBusinessCategory.a */; };
+		719F3EEF1E6EBEE3000C1B04 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 719F3EEE1E6EBEE3000C1B04 /* main.m */; };
+		719F3EF21E6EBEE3000C1B04 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 719F3EF11E6EBEE3000C1B04 /* AppDelegate.m */; };
+		719F3EF51E6EBEE3000C1B04 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 719F3EF41E6EBEE3000C1B04 /* ViewController.m */; };
+		719F3EF81E6EBEE3000C1B04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 719F3EF61E6EBEE3000C1B04 /* Main.storyboard */; };
+		719F3EFA1E6EBEE3000C1B04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 719F3EF91E6EBEE3000C1B04 /* Assets.xcassets */; };
+		719F3EFD1E6EBEE3000C1B04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 719F3EFB1E6EBEE3000C1B04 /* LaunchScreen.storyboard */; };
+		719F3F071E6EBF0F000C1B04 /* CTMediator+TRZXMapHome.m in Sources */ = {isa = PBXBuildFile; fileRef = 719F3F061E6EBF0F000C1B04 /* CTMediator+TRZXMapHome.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1E42FE15E994D7FACF8BC1BB /* libPods-TRZXMapBusinessCategory.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TRZXMapBusinessCategory.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		30D91699C08B073EA230A962 /* Pods-TRZXMapBusinessCategory.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TRZXMapBusinessCategory.release.xcconfig"; path = "Pods/Target Support Files/Pods-TRZXMapBusinessCategory/Pods-TRZXMapBusinessCategory.release.xcconfig"; sourceTree = "<group>"; };
+		5F4F91F57F9D6EB82BCEEC76 /* Pods-TRZXMapBusinessCategory.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TRZXMapBusinessCategory.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TRZXMapBusinessCategory/Pods-TRZXMapBusinessCategory.debug.xcconfig"; sourceTree = "<group>"; };
+		719F3EEA1E6EBEE3000C1B04 /* TRZXMapBusinessCategory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TRZXMapBusinessCategory.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		719F3EEE1E6EBEE3000C1B04 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		719F3EF01E6EBEE3000C1B04 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		719F3EF11E6EBEE3000C1B04 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		719F3EF31E6EBEE3000C1B04 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		719F3EF41E6EBEE3000C1B04 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		719F3EF71E6EBEE3000C1B04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		719F3EF91E6EBEE3000C1B04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		719F3EFC1E6EBEE3000C1B04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		719F3EFE1E6EBEE3000C1B04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		719F3F051E6EBF0F000C1B04 /* CTMediator+TRZXMapHome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CTMediator+TRZXMapHome.h"; sourceTree = "<group>"; };
+		719F3F061E6EBF0F000C1B04 /* CTMediator+TRZXMapHome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CTMediator+TRZXMapHome.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		719F3EE71E6EBEE3000C1B04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13D65B2009D2C2EDCB147820 /* libPods-TRZXMapBusinessCategory.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		719F3EE11E6EBEE3000C1B04 = {
+			isa = PBXGroup;
+			children = (
+				719F3EEC1E6EBEE3000C1B04 /* TRZXMapBusinessCategory */,
+				719F3EEB1E6EBEE3000C1B04 /* Products */,
+				DE0FCDCAF5105AAA9A6F719A /* Pods */,
+				F469D8AF2038BE83856D6801 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		719F3EEB1E6EBEE3000C1B04 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				719F3EEA1E6EBEE3000C1B04 /* TRZXMapBusinessCategory.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		719F3EEC1E6EBEE3000C1B04 /* TRZXMapBusinessCategory */ = {
+			isa = PBXGroup;
+			children = (
+				719F3F041E6EBF0A000C1B04 /* TRZXMapBusinessCategory */,
+				719F3EF01E6EBEE3000C1B04 /* AppDelegate.h */,
+				719F3EF11E6EBEE3000C1B04 /* AppDelegate.m */,
+				719F3EF31E6EBEE3000C1B04 /* ViewController.h */,
+				719F3EF41E6EBEE3000C1B04 /* ViewController.m */,
+				719F3EF61E6EBEE3000C1B04 /* Main.storyboard */,
+				719F3EF91E6EBEE3000C1B04 /* Assets.xcassets */,
+				719F3EFB1E6EBEE3000C1B04 /* LaunchScreen.storyboard */,
+				719F3EFE1E6EBEE3000C1B04 /* Info.plist */,
+				719F3EED1E6EBEE3000C1B04 /* Supporting Files */,
+			);
+			path = TRZXMapBusinessCategory;
+			sourceTree = "<group>";
+		};
+		719F3EED1E6EBEE3000C1B04 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				719F3EEE1E6EBEE3000C1B04 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		719F3F041E6EBF0A000C1B04 /* TRZXMapBusinessCategory */ = {
+			isa = PBXGroup;
+			children = (
+				719F3F051E6EBF0F000C1B04 /* CTMediator+TRZXMapHome.h */,
+				719F3F061E6EBF0F000C1B04 /* CTMediator+TRZXMapHome.m */,
+			);
+			path = TRZXMapBusinessCategory;
+			sourceTree = "<group>";
+		};
+		DE0FCDCAF5105AAA9A6F719A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5F4F91F57F9D6EB82BCEEC76 /* Pods-TRZXMapBusinessCategory.debug.xcconfig */,
+				30D91699C08B073EA230A962 /* Pods-TRZXMapBusinessCategory.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F469D8AF2038BE83856D6801 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1E42FE15E994D7FACF8BC1BB /* libPods-TRZXMapBusinessCategory.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		719F3EE91E6EBEE3000C1B04 /* TRZXMapBusinessCategory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 719F3F011E6EBEE3000C1B04 /* Build configuration list for PBXNativeTarget "TRZXMapBusinessCategory" */;
+			buildPhases = (
+				75A7617DDE37073C03E50C9B /* [CP] Check Pods Manifest.lock */,
+				719F3EE61E6EBEE3000C1B04 /* Sources */,
+				719F3EE71E6EBEE3000C1B04 /* Frameworks */,
+				719F3EE81E6EBEE3000C1B04 /* Resources */,
+				A54F101806E1F74E1AD4FED8 /* [CP] Embed Pods Frameworks */,
+				60186807635ED000CAD039E2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TRZXMapBusinessCategory;
+			productName = TRZXMapBusinessCategory;
+			productReference = 719F3EEA1E6EBEE3000C1B04 /* TRZXMapBusinessCategory.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		719F3EE21E6EBEE3000C1B04 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = TRZX;
+				TargetAttributes = {
+					719F3EE91E6EBEE3000C1B04 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 487PQPPTGA;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 719F3EE51E6EBEE3000C1B04 /* Build configuration list for PBXProject "TRZXMapBusinessCategory" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 719F3EE11E6EBEE3000C1B04;
+			productRefGroup = 719F3EEB1E6EBEE3000C1B04 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				719F3EE91E6EBEE3000C1B04 /* TRZXMapBusinessCategory */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		719F3EE81E6EBEE3000C1B04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				719F3EFD1E6EBEE3000C1B04 /* LaunchScreen.storyboard in Resources */,
+				719F3EFA1E6EBEE3000C1B04 /* Assets.xcassets in Resources */,
+				719F3EF81E6EBEE3000C1B04 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		60186807635ED000CAD039E2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TRZXMapBusinessCategory/Pods-TRZXMapBusinessCategory-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		75A7617DDE37073C03E50C9B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A54F101806E1F74E1AD4FED8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TRZXMapBusinessCategory/Pods-TRZXMapBusinessCategory-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		719F3EE61E6EBEE3000C1B04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				719F3EF51E6EBEE3000C1B04 /* ViewController.m in Sources */,
+				719F3EF21E6EBEE3000C1B04 /* AppDelegate.m in Sources */,
+				719F3F071E6EBF0F000C1B04 /* CTMediator+TRZXMapHome.m in Sources */,
+				719F3EEF1E6EBEE3000C1B04 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		719F3EF61E6EBEE3000C1B04 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				719F3EF71E6EBEE3000C1B04 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		719F3EFB1E6EBEE3000C1B04 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				719F3EFC1E6EBEE3000C1B04 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		719F3EFF1E6EBEE3000C1B04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		719F3F001E6EBEE3000C1B04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		719F3F021E6EBEE3000C1B04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F4F91F57F9D6EB82BCEEC76 /* Pods-TRZXMapBusinessCategory.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 487PQPPTGA;
+				INFOPLIST_FILE = TRZXMapBusinessCategory/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mmwipo.com.TRZXMapBusinessCategory;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		719F3F031E6EBEE3000C1B04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30D91699C08B073EA230A962 /* Pods-TRZXMapBusinessCategory.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 487PQPPTGA;
+				INFOPLIST_FILE = TRZXMapBusinessCategory/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mmwipo.com.TRZXMapBusinessCategory;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		719F3EE51E6EBEE3000C1B04 /* Build configuration list for PBXProject "TRZXMapBusinessCategory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				719F3EFF1E6EBEE3000C1B04 /* Debug */,
+				719F3F001E6EBEE3000C1B04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		719F3F011E6EBEE3000C1B04 /* Build configuration list for PBXNativeTarget "TRZXMapBusinessCategory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				719F3F021E6EBEE3000C1B04 /* Debug */,
+				719F3F031E6EBEE3000C1B04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 719F3EE21E6EBEE3000C1B04 /* Project object */;
+}
